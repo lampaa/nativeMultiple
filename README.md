@@ -46,3 +46,6 @@ $('input[name=three]').nativeMultiple({
 ```onSlide```  возникает при движении одного из ползунков.
 
 ```onChange```  возникает при завершении движения одного из ползунков.
+
+<h3>Реализации</h3>
+https://github.com/comerc/meteor-autoform-nativemultiple - обертка для Meteor AutoForm
