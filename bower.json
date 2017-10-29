@@ -1,0 +1,20 @@
+{
+	"name": "nativeMultiple",
+	"main": [
+		"nativemultiple.jquery.min.js.js",
+		"stylesheets/jquery.formstyler.css"
+	],
+	"description": "Плагин для расширения нативного слайдера <input type=range>",
+	"keywords": [
+		"jquery",
+		"form",
+		"type",
+		"range"
+	],
+	"license": "MIT",
+	"ignore": [
+		"**/.*",
+		"*.txt",
+		"demo"
+	]
+}
