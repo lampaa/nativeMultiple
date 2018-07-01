@@ -4,6 +4,7 @@
 Посмотреть пример можно тут: http://lampaa.github.io/nativemultiple/
 
 <h3>Инициализация</h3>
+
 ```js
 $('input[name=three]').nativeMultiple({
     stylesheet: "slider",
@@ -18,6 +19,7 @@ $('input[name=three]').nativeMultiple({
     }
 });
 ```
+
 ```html
 <input type="range" min="0" max="180" step="20" value="0,10" />
 ```
@@ -25,11 +27,13 @@ $('input[name=three]').nativeMultiple({
 
 
 <h3>Параметры плагина</h3>
+
 ```stylesheet``` - дополнительный класс для слайдера.
 
 
 
 <h3>Параметры элемента</h3>
+
 ```min```  - минимальное значение
 
 ```max```  - максимальное значение
@@ -41,6 +45,7 @@ $('input[name=three]').nativeMultiple({
 
 
 <h3>События</h3>
+
 ```nCreate``` возникает при инициализации слайдера.
 
 ```onSlide```  возникает при движении одного из ползунков.
